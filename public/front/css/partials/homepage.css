@@ -1,0 +1,204 @@
+#home {
+  margin-top: 282px;
+}
+
+.main-nav {
+  display: none !important;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo__title span {
+  font-weight: 500;
+}
+
+.home-all-wrapper {
+  margin: 42px auto;
+  padding: 72px 48px;
+  background: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-top: 282px;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.home-wrapper .home-menu-wrapper {
+  border-radius: 5px;
+  background-color: #ff6b6b;
+  flex: 1 0 45%;
+  margin: 2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120px;
+}
+
+.home-wrapper .home-menu-wrapper:first-child {
+  background-image: url("../../images/assets/pizza-1.jpg");
+}
+
+.home-wrapper .home-menu-wrapper:first-child h2 {
+  margin: 45px 0;
+  transition: all .4s;
+}
+
+.home-wrapper .home-menu-wrapper:nth-child(2) {
+  background-image: url("../../images/assets/pizza-2.jpg");
+}
+
+.home-wrapper .home-menu-wrapper:nth-child(2) h2 {
+  margin: 45px 0;
+  transition: all .4s;
+}
+
+.home-wrapper .home-menu-wrapper:nth-child(1):hover h2, .home-wrapper .home-menu-wrapper:nth-child(2):hover h2 {
+  margin: 18px 0;
+}
+
+.home-wrapper a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.home-wrapper h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  margin: 30px 0 8px 0;
+}
+
+.home-wrapper .open-hours {
+  margin: 0;
+}
+
+.gallery-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-wrapper .image {
+  flex: 0 0 31%;
+  margin: 6px;
+  object-fit: cover;
+  width: 30%;
+  position: relative;
+  height: 170px;
+}
+
+.gallery-wrapper .image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.gallery-wrapper .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: .4s;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.gallery-wrapper .icon i {
+  margin: 2px;
+}
+
+.gallery-wrapper .image:hover .icon {
+  opacity: 1;
+}
+
+.gallery-wrapper .image i:hover {
+  color: #ff6b6b;
+  cursor: pointer;
+}
+
+.carousel-dots {
+  text-align: center;
+}
+
+.carousel-dots .fa-circle {
+  color: #bbbbbb;
+  padding: 0 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.carousel-dots .fa-circle:hover {
+  color: #333;
+}
+
+.carousel {
+  padding: 72px 0;
+}
+
+.carousel-wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  height: 300px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carousel-wrapper .carousel-box {
+  flex: 1;
+}
+
+.carousel-wrapper .carousel-box img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.carousel-wrapper .carousel-box .opinion {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.carousel-wrapper .carousel-box .opinion-author {
+  font-style: italic;
+}
+
+.carousel-wrapper .carousel-box .first {
+  display: none;
+}
+
+.carousel-wrapper .carousel-box .second {
+  display: none;
+}
+
+.carousel-wrapper .carousel-box .third {
+  display: none;
+}
+
+.carousel-wrapper .carousel-box .active {
+  display: block;
+}
+
+.instagram {
+  color: #ff6b6b;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=homepage.css.map */
